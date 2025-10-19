@@ -1,0 +1,21 @@
+i
+[200~# Don't track temporary files
+*~
+.*.swp
+*.tmp
+
+# Don't track sensitive information
+.ssh/
+*.key
+*.pem
+
+# Don't track system/cache files
+.cache/
+.bash_history
+.gitconfig
+
+# Don't track entire directories you don't want to version
+Downloads/
+Documents/
+Desktop/
+
